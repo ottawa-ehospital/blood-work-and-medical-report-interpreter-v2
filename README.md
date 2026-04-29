@@ -86,3 +86,4 @@ Open http://localhost:5173 in browser.
 - Port 3001 connection refused — backend not running, run `npm run server`
 - Port 11434 connection refused — Ollama not running
 - Windows auth error — use `psql -U postgres medivoice`, and update `server/index.cjs` Pool config with user/password
+- The system can run without setting up a database, the report will be locally stored at browser's localStorage
